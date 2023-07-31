@@ -1,0 +1,69 @@
+.app--container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register--container {
+  padding: 10px 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.register--title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+
+.register--input {
+  display: block;
+  padding: 10px auto;
+  margin: 10px auto;
+}
+
+.register--button {
+  padding: 2px 5px;
+}
+
+.edit--container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000; 
+  background: white; 
+  padding: 20px; 
+  border-radius: 10px; 
+  width: 400px; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.25); 
+}
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5); 
+  z-index: 900; 
+}
+
+.close-modal {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  color: red;
+}
+
+.close-modal:active {
+  color: darkred;
+}
